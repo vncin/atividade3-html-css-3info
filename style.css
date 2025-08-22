@@ -1,0 +1,127 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+:root{
+ --amerelo-escuro: #EBAD00;
+ --amarelo-claro: #FFC400;
+ --azul-agua: #00BFCE;
+ --branco: white;
+ --fonte-principal: 'Roboto';
+ --tamanho-titulo: 34pt;
+}
+*{
+    margin: 0;
+    font-family: var(--fonte-principal);
+}
+.cabecalho{
+    font-family: var(--fonte-principal);
+    background-color: var(--amerelo-escuro);
+    display: flex;
+    flex-direction: row;
+    height: 15vh;
+   
+}
+.cabecalho-logo{
+    display: flex;
+    flex-direction: row;
+    width: 20%;
+    gap: 3%;
+    margin-left: 5%;
+    align-items: center;
+}
+.cabecalho-logo-texto{
+    display: flex;
+    flex-direction: column;
+}
+.cabecalho-logo-imagem{
+    width: 48px;
+    height: 48px;
+}
+.cabecalho-logo-titulo{
+    color: var(--branco);
+    font-weight: 700;
+}
+.cabecalho-logo-subtitulo{
+    color: var(--branco);
+    font-weight: 400;
+}
+.cabecalho-menu{
+    text-decoration: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 45%;
+    align-items: center;
+}
+.cabecalho-menu-link{
+    text-decoration: none;
+    font-size: 15pt;
+    color: var(--branco);
+    font-weight: 400;
+}
+.cabecalho-pesquisa{
+    width: 20%;
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    align-items: center;
+
+}
+.cabecalho-pesquisa-barra{
+    color: var(--branco);
+    font-size: 12pt;
+    width: 50%;
+    height: 6vh;
+    background-color: var(--amarelo-claro);
+    border-radius: 3px;    
+    display: flex;
+    align-items: center;
+    padding-left: 3%;
+    font-weight: 300;
+}
+.cabecalho-pesquisa-icone{
+    background-color: var(--azul-agua);
+    border-radius: 3px;
+    padding: 4.65%;
+    width: 12%;
+    display: flex;
+    justify-content: center;
+}
+.cabecalho-pesquisa-icone-lupa{
+    padding: 0 auto;
+}
+.pg-1{
+    height: 85vh;
+    background-color: var(--amarelo-claro);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.pg-1-conteudo{
+    color: var(--branco);
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    column-gap: 10%;
+    margin-left: 5%;
+    
+}
+.pg-1-conteudo-titulo{
+    font-size: 40pt;
+    font-weight: 600;
+    margin-bottom: 2%;
+}
+.pg-1-conteudo-subtitulo{
+    font-weight: 350;
+    margin-bottom: 2%;
+}
+.pg-1-conteudo-botoes{
+    display: flex;
+    flex-direction: row;
+    gap: 10%;
+}
+.pg-1-imagem{
+    margin: 0 auto;
+}
+.pg-1-imagem img{
+    height: 70vh;
+}
