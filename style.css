@@ -13,12 +13,10 @@
     font-family: var(--fonte-principal);
 }
 .cabecalho{
-    font-family: var(--fonte-principal);
     background-color: var(--amerelo-escuro);
     display: flex;
     flex-direction: row;
     height: 15vh;
-   
 }
 .cabecalho-logo{
     display: flex;
@@ -183,4 +181,22 @@
 }
 .pg-2-video{
     margin: 0 auto;
+}
+/*Responsividade*/
+@media screen and (max-width: 415px) {
+    .cabecalho{
+        flex-direction: column;
+        justify-content: center;
+        width: 100%;
+        gap: 10%;
+    }
+    .cabecalho-logo{
+        width: 100%;
+    }
+    .cabecalho-menu{
+        display: none;
+    }
+    .cabecalho-pesquisa{
+        display: none;
+    }
 }
